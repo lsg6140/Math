@@ -1,6 +1,6 @@
 Exercise
 1. Chpter 1
-  1. Proof that $a = {1}{2}$
+    1. Proof that \\(a = {1}{2}\\)
 
 * Ch5: The real numbers
 ** Lemma 5.1.15
