@@ -1,3 +1,6 @@
+* Ch1:
+** ex01
+
 * Ch5: The real numbers
 ** Lemma 5.1.15
 Cauchy sequences are bounded: Every Cauchy sequence \((a_n)_{n=1}^{\infty}\) is bounded.
