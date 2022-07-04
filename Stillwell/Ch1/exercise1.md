@@ -7,8 +7,4 @@ $n^2$ is a multiple of 3
 Use this property to devise a proof that $\sqrt{3}$ is irrational.
 
 $n$ is one of the
-```math
-n=\begin{cases}
-3k
-\end{cases}
-```
+$$n=\begin{cases}3k\\ 3k+1\end{cases}$$
