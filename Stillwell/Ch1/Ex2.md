@@ -21,3 +21,7 @@ $$
 $$
 
 So, for any pair $m,n$ of natural numbers with $3=m^2/n^2$ there is a _smaller_ pair $m',n'$ with the same property, and we therefore have an infinite descending sequence of natural numbers, which is impossible.
+
+## 1.2.3
+Also give a proof that $\sqrt{5}$ is irrational.  
+$\Rightarrow$ It is same for all prime numbers.
