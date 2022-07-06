@@ -90,3 +90,6 @@ $$
 $\forall\varepsilon>0$, $\exists n,m\in\mathbb{N}$ such that 
 $\frac{|na-mb|}{\sqrt{n^2+m^2}}<\varepsilon$.  
 Therefore, there is always a line that passes the disk at any point $\langle a,b\rangle$.
+
+# 1.3.7
+Conclude that, if space were filled uniformly with stars of uniform size, the whole sky would be filled with light (the Olbers paradox).
