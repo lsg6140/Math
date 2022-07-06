@@ -34,3 +34,27 @@ r=0.b_1b_2\cdots b_k\overline{a_1a_2\cdots a_n}\Rightarrow&10^k r=b_1b_2\cdots b
 \Rightarrow& r=\frac{b_1b_2\cdots b_ka_1a_2\cdots a_n-b_1b_2\cdots b_k}{10^{k+n}-10^k}
 \end{align}
 $$
+
+# 1.3.4
+Find the decimals for $1/6$ and $1/7$.  
+
+$$
+\begin{align}
+\frac{1}{6}=&1\times10^{-1}+\frac{4}{6}\times10^{-1}\\
+=&1\times10^{-1}+6\times10^{-2}+\frac{4}{6}\times10^{-2}\\
+=&0.1\overline{6}
+\end{align}
+$$
+
+
+$$
+\begin{align}
+\frac{1}{7}=&1\times10^{-1}+\frac{3}{7}\times10^{-1}\\
+=&1\times10^{-1}+4\times10^{-2}+\frac{2}{7}\times10^{-2}\\
+=&1\times10^{-1}+4\times10^{-2}+2\times10^{-3}+\frac{6}{7}\times10^{-3}\\
+=&1\times10^{-1}+4\times10^{-2}+2\times10^{-3}+8\times10^{-4}+\frac{4}{7}\times10^{-4}\\
+=&1\times10^{-1}+4\times10^{-2}+2\times10^{-3}+8\times10^{-4}+5\times10^{-5}+\frac{5}{7}\times10^{-5}\\
+=&1\times10^{-1}+4\times10^{-2}+2\times10^{-3}+8\times10^{-4}+5\times10^{-5}+7\times10^{-6}+\frac{1}{7}\times10^{-6}\\
+=&0.\overline{142857}
+\end{align}
+$$
