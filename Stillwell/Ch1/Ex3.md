@@ -22,18 +22,24 @@ y=0.5191919\cdots\Rightarrow& 10y=5.191919\cdots\\
 $$
 
 # 1.3.3
-By generalizing the idea of the previous exercises, explain why each ultimately periodic decimal represents a ration number.  
+By generalizing the idea of the previous exercises, explain why each ultimately periodic decimal represents a rational number.  
 
 Any periodic decimal number can be written as
 
 $$
+r=0.b_1b_2\cdots b_k\overline{a_1a_2\cdots a_n}
+$$
+
+$$
 \begin{align}
-r=0.b_1b_2\cdots b_k\overline{a_1a_2\cdots a_n}\Rightarrow&10^k r=b_1b_2\cdots b_k.\overline{a_1a_2\cdots a_n}\\
-\Rightarrow&10^{k+n}r=b_1b_2\cdots b_ka_1a_2\cdots a_n r=\overline{a_1a_2\cdots a_n}\\
+\Rightarrow&10^k r=b_1b_2\cdots b_k.\overline{a_1a_2\cdots a_n}\\
+\Rightarrow&10^{k+n}r=b_1b_2\cdots b_ka_1a_2\cdots a_n.\overline{a_1a_2\cdots a_n}\\
 \Rightarrow&(10^{k+n}-10^k)r=b_1b_2\cdots b_ka_1a_2\cdots a_n-b_1b_2\cdots b_k\\
 \Rightarrow& r=\frac{b_1b_2\cdots b_ka_1a_2\cdots a_n-b_1b_2\cdots b_k}{10^{k+n}-10^k}
 \end{align}
 $$
+
+Since both $b_1b_2\cdots b_ka_1a_2\cdots a_n-b_1b_2\cdots b_k$ and $10^{k+n}-10^k$ are integers (integers are closed under addition, subtraction, and multiplication), any periodic decimal number represents a ratio of two integers (i.e., rational number).
 
 # 1.3.4
 Find the decimals for $1/6$ and $1/7$.  
@@ -58,3 +64,29 @@ $$
 =&0.\overline{142857}
 \end{align}
 $$
+
+# 1.3.5
+By means of the division processes, or otherwise, explain why each rational number has an ultimately periodic decimal.  
+
+
+
+
+# 1.3.6
+If each rational point in the plane is surrouned by a disk of fixed size $\varepsilon$, show that there is _no_ line from $<0,0>$ that misses all other disks.  
+
+A line from $\langle 0,0\rangle$
+that passes a point $\langle m,n\rangle$ is
+
+$$
+nx-my=0
+$$
+  
+The distance between the line and a point $\langle a,b\rangle$ is
+
+$$
+d=\frac{|na-mb|}{\sqrt{n^2+m^2}}
+$$
+
+$\forall\varepsilon>0$, $\exists n,m\in\mathbb{N}$ such that 
+$\frac{|na-mb|}{\sqrt{n^2+m^2}}<\varepsilon$.  
+Therefore, there is always a line that passes the disk at any point $\langle a,b\rangle$.
