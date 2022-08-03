@@ -1,0 +1,7 @@
+* A1
+A1.1 What is the negation of the statement "either X is true, or Y is true, but not both"?
+$$
+X \or Y
+$$
+
+Neither X is false and Y is false or both are true
