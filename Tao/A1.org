@@ -1,5 +1,16 @@
 * A1
-A1.1 What is the negation of the statement "either X is true, or Y is true, but not both"?
+$X\implies Y$ (Y is true if X is true) is $\lnot(X\land\lnot Y)$ or $\lnot X\lor Y$.
+
+The truth table of logical implication
+|$X$|$Y$|$X\implies Y$|$\lnot X$|$\lnot X\lor Y$|
+|T  |T  |T            |F        | T             |
+|T  |F  |F            |F        | F             |
+|F  |T  |T            |T        | T             |
+|F  |F  |T            |T        | T             |
+
+** A1.1 
+What is the negation of the statement "either X is true, or Y is true, but not both"?
+  
 
 either X is true or Y is true: $X \lor Y$
 
@@ -21,3 +32,55 @@ $$
 $$
 
 Neither X is true nor Y is true or both are true
+
+|$X$|$Y$|$X \lor Y$|$X\land Y$|$\lnot(X\land Y)$|$(X \lor Y) \land\lnot(X\land Y)$|$\lnot(X \lor Y)$|$(\lnot X\land\lnot Y)\lor (X\land Y)$|
+|T  |T  |T         |T         | F               |F                                |F                |T                                     |
+|T  |F  |T         |F         | T               |T                                |F                |F                                     |
+|F  |T  |T         |F         | T               |T                                |F                |F                                     |
+|F  |F  |F         |F         | T               |F                                |T                |T                                     |
+
+
+** A1.2 
+What is the negation of the statement "X is true if and only if Y is true"? (There may be multiple ways to phrase this negation).
+
+$$
+\lnot(X\implies Y)=X\land\lnot Y
+$$
+
+$$
+X \iff Y = (X\implies Y)\land(Y\implies X)=\lnot(X\land\lnot Y)\land\lnot(Y\land\lnot X)
+$$
+
+$$
+\lnot(\lnot(X\land\lnot Y)\land\lnot(Y\land\lnot X))=(X\land\lnot Y)\lor(Y\land\lnot X)
+$$
+
+Either X is true and Y is false, or X is false and Y is true.
+
+
+|$X$|$Y$|$\lnot X$|$\lnot Y$|$\lnot X\lor Y$|$\lnot Y\lor X$|$(\lnot X\lor Y)\land(\lnot Y\lor X)$|$X\land\lnot Y$|$Y\land\lnot X$|$(X\land\lnot Y)\lor(Y\land\lnot X)$|
+| T | T | F       | F       | T             | T             |T                                    |F              |F              |F|
+| T | F | F       | T       | F             | T             |F                                    |T              | F             |T|
+| F | T | T       | F       | T             | F             |F                                    |F              | T             |T|
+| F | F | T       | T       | T             | T             |T                                    |F              | F             |F|
+
+** A1.3
+Suppose that you have shown that whenever X is true, the Y is true, and whenever Y is false, then X is false. Have you now demonstrated that X is true if and only if Y is true? Explain.
+
+$$
+X\iff Y = (X\implies Y)\land(Y\implies X)
+$$
+
+$\lnot Y\implies\lnot X$ is contraposition of $X\implies Y$. Hence,
+
+$$
+(X\implies Y)\land((\lnot Y\implies\lnot X)=(X\implies Y)\land(X\implies Y)=X\implies Y
+$$
+
+Hence, it does not demonstrate that X is true if and only if Y is true.
+
+|$X$|$Y$|$X\implies Y$|$Y\implies X$|$\lnot X$|$\lnot Y$|$\lnot Y\implies\lnot X$|$X\implies Y \land Y\implies X$|$X\implies Y \land \lnot Y\implies\lnot X$|
+|T  |T  |T            |T            |F        |F        |T                       |T                              |T                                         |
+|T  |F  |F            |T            |F        |T        |F                       |F                              |F                                         |
+|F  |T  |T            |F            |T        |F        |T                       |F                              |T                                         |
+|F  |F  |T            |T            |T        |T        |T                       |T                              |T                                         |
