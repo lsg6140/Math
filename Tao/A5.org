@@ -1,0 +1,33 @@
+What does each of the following statements mean, and which of them are true? Can you find gaming metaphors for each of these statements?
+
+(a) For every positive number $x$, and every positive number $y$, we have $y^2=x$.
+
+Any positive number is the square of all positive number. False.
+
+This statement is false, since if $x=1$ and $y=2$, $y^2\neq x$.
+
+Your opponent first picks a positive number $x$, and then you pick arbitrarily a positive number $y$, it is not always $y^2=x$.
+
+(b) There exists a positive number $x$ such that for every positive number $y$, we have $y^2=x$.
+
+A positive number is the square of all positive numbers. False
+
+You pick a positive number first $x$, and then your oppenent can pick a positive number $y$ that $y^2\neq x$ to defeat you.
+
+(c) There exists a positive number $x$, and there exists a positive number $y$, such that $y^2=x$.
+
+A positive number is the square of a positive number. True
+
+Your oppenent pick $4$, and then you pick $2$. You win the game since $2^2=4$.
+
+(d) For every positive number $y$, there exists a positive number $x$ such that $y^2=x$.
+
+Every positive number has a positive square root. True.
+
+Your opponent picks a positive number $x$, and then you pick a positive number $y$. You win if $y^2=x$ and you can always win.
+
+(e) There exists a positive number $y$ such that for every positive number $x$, we have $y^2=x$.
+
+A positive number is a positive square root of all positive numbers. False.
+
+You pick a positive number $y$, and then your oppenent picks a positive number $x$ such that $y^2\neq x$ to defeat you.
