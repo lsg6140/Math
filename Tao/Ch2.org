@@ -16,7 +16,7 @@ $\Vdash~~$ {Proof by induction on $a$}
 
 $\hspace{16pt}\bullet~~$ Base case: show that $(a+b)+c=a+(b+c)$, when
   
-$\hspace{16pt}--~~$ $n=0$
+$\hspace{16pt}--~~$ $a=0$
  
 $\hspace{16pt}\Vdash~~$ $(a+b)+c=a+(b+c)$
  
