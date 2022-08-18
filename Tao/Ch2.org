@@ -167,3 +167,69 @@ $\hspace{16pt}\square$
 $\cdots~~$ T
 
 $\square$
+
+(b)
+
+$\bullet~~$ Show that $a\geq b\land b\geq c\implies a\geq c$
+
+$\Vdash~~$ $a\geq b\land b\geq c\implies a\geq c$
+
+$\equiv~~$ {Definition 2.2.11}
+
+$\hspace{16pt}$ $(a=b+d)\land (b=c+e)\implies a\geq c$ for some $d, e\in\mathbb{N}$
+
+$\equiv~~$ {substitute $b$ from $b=c+e$}
+
+$\hspace{16pt}$ $a=c+e+d\implies a\geq c$ for some $d, e\in\mathbb{N}$
+
+$\equiv~~$ { $e+d=r$ for some $r\in\mathbb{N}$ }
+
+$\hspace{16pt}$ $a=c+r\implies a\geq c$ for some $r\in\mathbb{N}$
+
+$\equiv~~$ {Definition 2.2.11}
+
+$\hspace{16pt}$ T
+
+$\square$
+
+(c)
+
+$\bullet~~$ Show that $a\geq b\land b\geq a\implies a=b$
+
+$\Vdash~~$ $a\geq b\land b\geq a\implies a=b$
+
+$\equiv~~$ {Definition 2.2.11}
+
+$\hspace{16pt}$ $(a=b+d)\land (b=a+e)\implies a=b$ for some $d, e\in\mathbb{N}$
+
+$\equiv~~$ {substitute $b$ from $b=a+e$}
+
+$\hspace{16pt}$ $a=a+e+d\implies a=b$ for some $d, e\in\mathbb{N}$
+
+$\equiv~~$ {find $d,e$ such that $a=a+e+d$ for some $d,e\in\mathbb{N}$ }
+
+$\hspace{16pt}\bullet~~$ Show that $a=a+e+d\implies e=0\land d=0$
+
+$\hspace{16pt}\Vdash~~$ $a=a+e+d\implies e=0\land d=0$
+
+$\hspace{16pt}\equiv~~$ {Lemma 2.2.2}
+
+$\hspace{32pt}$ $a+0=a+e+d\implies e=0\land d=0$
+
+$\hspace{16pt}\equiv~~$ {Proposition 2.2.6 (cancellation law)}
+
+$\hspace{32pt}$ $0=e+d\implies e=0\land d=0$
+
+$\hspace{16pt}\equiv~~$ {Corollary 2.2.9}
+
+$\hspace{32pt}$ True
+
+$\hspace{16pt}\square$
+
+$\cdots~~$ $(a=b+0)\land (b=a+0)\implies a=b$
+
+$\equiv~~$ {Lemma 2.2.2}
+
+$\hspace{16pt}$ $a=b\land b=a\implies a=b$
+
+$\square$
